@@ -1,0 +1,40 @@
+.progress-card-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.finish-and-progress-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    margin-bottom: 1rem;
+
+
+}
+.bar-container {
+    width: 100px;
+    height: 100px;
+}
+
+.bar-container .CircularProgressBar-path {
+    width: 100%;
+}
+.progress {
+    font-weight: bold;
+}
+
+.progress-text {
+    font-size: 1.5rem;
+    color: #4f4e4e;
+}
+
+@media (min-width:1024px ) {
+    .bar-container {
+        width: 200px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,35 @@
+.tasks-container {
+    background-color: #EFEEEE;
+    padding: 1rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: bold;
+}
+.tasks-list {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.no-tasks {
+    width: 100%;
+    
+    
+}
+
+@media (min-width: 1024px) {
+    .generic-title {
+        font-size: 2rem;
+    }
+        .no-task-image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    .no-tasks {
+        width: 60%;
+
+    }
+}

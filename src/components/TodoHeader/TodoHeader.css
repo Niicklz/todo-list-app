@@ -1,0 +1,33 @@
+header {
+    
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  border-bottom: 2px solid gray;
+  padding: 0 1.5rem;
+  gap: 1rem;
+}
+
+
+.social-networks img {
+   
+  
+    max-width: 20px;
+    max-height: 20px;
+}
+.social-networks {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.title-app {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+@media (min-width: 1024px) {
+    .title-app {
+        font-size: 2rem;
+    }
+}

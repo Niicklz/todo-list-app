@@ -1,0 +1,31 @@
+.task-container {
+    display: flex;
+    position: relative;
+    gap: 1rem;
+    align-items: center;
+    padding-right: 2rem;
+    
+    
+
+}
+
+.task {
+
+    font-size: 0.8rem;
+    width: 50%;
+    overflow-wrap: break-word;
+}
+.check-task, .incomplete-task, .delete-task {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.delete-task {
+    position: absolute;
+    right: 0;
+}
+
+.task-complete {
+    text-decoration: line-through;
+}
+
